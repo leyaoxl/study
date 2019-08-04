@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsn.conference.submission.dao.UserInfoDao">
+    <resultMap id="userInfoMap" type="com.wsn.conference.submission.entity.UserInfo">
+        <id property="id" column="id" javaType="java.lang.Long"/>
+        <result property="userId" column="user_id" javaType="java.lang.Long"/>
+        <result property="prefix" column="prefix" javaType="java.lang.String"/>
+        <result property="username" column="username" javaType="java.lang.String"/>
+        <result property="degree" column="degree" javaType="java.lang.String"/>
+        <result property="email" column="email" javaType="java.lang.String"/>
+        <result property="country" column="country" javaType="java.lang.String"/>
+        <result property="city" column="city" javaType="java.lang.String"/>
+        <result property="school" column="school" javaType="java.lang.String"/>
+        <result property="address" column="address" javaType="java.lang.String"/>
+        <result property="postalCode" column="postal_code" javaType="java.lang.String"/>
+        <result property="phone" column="phone" javaType="java.lang.String"/>
+        <result property="role" column="role" javaType="java.lang.String"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <insert id="addUserInfo" parameterType="com.wsn.conference.submission.entity.UserInfo">
+        INSERT INTO user_info(
+        <trim suffixOverrides=",">
+            <if test="userId != 0">
+                user_id,
+            </if>
+            <if test="prefix != null and prefix != ''">
+                prefix,
+            </if>
+            <if test="username != null and username != ''">
+                username,
+            </if>
+            <if test="degree != null and degree != ''">
+                degree,
+            </if>
+            <if test="email != null and email != ''">
+                email,
+            </if>
+            <if test="country != null and country != ''">
+                country,
+            </if>
+            <if test="city != null and city != ''">
+                city,
+            </if>
+            <if test="school != null and school != ''">
+                school,
+            </if>
+            <if test="address != null and address != ''">
+                address,
+            </if>
+            <if test="postalCode != null and postalCode != ''">
+                postal_code,
+            </if>
+            <if test="phone != null and phone != ''">
+                phone,
+            </if>
+            <if test="role != null and role != ''">
+                role
+            </if>
+        </trim>
+        )
+        VALUES (
+        <trim suffixOverrides=",">
+            <if test="userId != 0">
+                #{userId},
+            </if>
+            <if test="prefix != null and prefix != ''">
+                #{prefix},
+            </if>
+            <if test="username != null and username != ''">
+                #{username},
+            </if>
+            <if test="degree != null and degree != ''">
+                #{degree},
+            </if>
+            <if test="email != null and email != ''">
+                #{email},
+            </if>
+            <if test="country != null and country != ''">
+                #{country},
+            </if>
+            <if test="city != null and city != ''">
+                #{city},
+            </if>
+            <if test="school != null and school != ''">
+                #{school},
+            </if>
+            <if test="address != null and address != ''">
+                #{address},
+            </if>
+            <if test="postalCode != null and postalCode != ''">
+                #{postalCode},
+            </if>
+            <if test="phone != null and phone != ''">
+                #{phone},
+            </if>
+            <if test="role != null and role != ''">
+                #{role}
+            </if>
+        </trim>
+        )
+    </insert>
+    
+    <select id="isEmailRepeated" parameterType="java.lang.String" resultType="java.lang.Integer">
+        SELECT COUNT(0)
+        FROM user_info
+        WHERE email = #{email}
+    </select>
+
+    <select id="getUserInfo" parameterType="com.wsn.conference.submission.entity.UserInfo" resultMap="userInfoMap">
+        SELECT *
+        FROM user_info
+        WHERE
+        <trim prefixOverrides="AND">
+            <if test="userId != 0">
+                AND user_id = #{userId}
+            </if>
+            <if test="email != null and email != ''">
+                AND email = #{email}
+            </if>
+        </trim>
+    </select>
+
+    <update id="updateUserRole" parameterType="com.wsn.conference.submission.entity.UserInfo">
+        UPDATE user_info
+        SET role = #{role}
+        WHERE user_id = #{userId}
+    </update>
+
+    <select id="getUserInfoList" parameterType="com.wsn.conference.submission.entity.UserInfo" resultMap="userInfoMap">
+        SELECT *
+        FROM user_info
+        <if test="role != null and role != ''">
+            WHERE
+              <trim prefixOverrides="AND | OR">
+                  role = #{role}
+              </trim>
+        </if>
+    </select>
+</mapper>

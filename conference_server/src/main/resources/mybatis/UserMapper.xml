@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wsn.conference.Dao.UserDao" >
+    <resultMap id="BaseResultMap" type="com.wsn.conference.Bean.User" >
+        <id property="id" column="id"  jdbcType="BIGINT" />
+        <result property="username" column="username"  jdbcType="VARCHAR" />
+        <result property="password" column="password"  jdbcType="VARCHAR" />
+        <result property="telephone"    column="telephone"  jdbcType="VARCHAR" />
+        <result property="email"    column="email"  jdbcType="VARCHAR" />
+        <result property="payState"    column="pay_state"  jdbcType="INTEGER" />
+        <result property="createTime"    column="create_time"  jdbcType="TIMESTAMP" />
+        <result property="updateTime"    column="update_time"  jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,username,password
+    </sql>
+
+    <!-- 用户登录验证 -->
+    <select id="selectRegisteredUser" parameterType="java.lang.String" resultType="com.wsn.conference.Bean.User" >
+        select
+        <include refid="Base_Column_List" />
+        from user_tb
+        where username=#{username}
+    </select>
+
+    <!-- 测试数据库连接 -->
+     <select id="selectUser" resultType="com.wsn.conference.Bean.User" >
+             select *
+            from user_tb
+     </select>
+
+    <!-- 用户注册 -->
+    <insert id="register" parameterType="com.wsn.conference.Bean.User">
+        INSERT INTO user_tb(
+        <trim suffixOverrides=",">
+            <if test="username != null and username != ''">
+                username,
+            </if>
+            <if test="password != null and password != ''">
+                password,
+            </if>
+            <if test="telephone != null and telephone != ''">
+                telephone,
+            </if>
+            <if test="email != null and email != ''">
+                email,
+            </if>
+            <if test="payState != null and payState != ''">
+                pay_state,
+            </if>
+                create_time,
+                update_time
+        </trim>
+        ) VALUES (
+        <trim suffixOverrides=",">
+            <if test="username != null and username != ''">
+                #{username},
+            </if>
+            <if test="password != null and password != ''">
+                #{password},
+            </if>
+            <if test="telephone != null and telephone != ''">
+                #{telephone},
+            </if>
+            <if test="email != null and email != ''">
+                #{email},
+            </if>
+            <if test="payState != null and payState != ''">
+                #{payState},
+            </if>
+            now(),
+            now()
+        </trim>
+        )
+    </insert>
+
+    <!-- 更新密码 -->
+    <update id="updatePassword" parameterType="java.lang.String" >
+        update user_tb
+        <set>
+            <if test="password != null and password != ''">
+                password=#{password},
+            </if>
+            update_time=now()
+        </set>
+        where username=#{username}
+    </update>
+
+    <!-- 查询更新密码用户-->
+    <select id="selectUpdatePasswordUser" parameterType="java.lang.String" resultType="com.wsn.conference.Bean.User" >
+        select
+        <include refid="Base_Column_List" />
+        from user_tb
+        where username=#{username} and password=#{password}
+    </select>
+
+</mapper>

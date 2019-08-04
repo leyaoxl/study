@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.TimeDao">
+    <resultMap id="timeMap" type="com.example.demo.entity.Time">
+        <id property="id" column="id"/>
+        <result property="time" column="time"/>
+    </resultMap>
+
+    <select id="getTime" resultMap="timeMap">
+#         SELECT id, DATE_FORMAT(time, "%Y-%m-%d %H-%i-%s") AS time
+        SELECT *
+        FROM time_tb
+    </select>
+</mapper>

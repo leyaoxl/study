@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsn.conference.submission.dao.UserDao">
+    <resultMap id="userMap" type="com.wsn.conference.submission.entity.User">
+        <id column="id" property="id"/>
+        <result column="account" property="account"/>
+        <result column="password" property="password"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <insert id="addUser" parameterType="com.wsn.conference.submission.entity.User">
+        INSERT INTO user (
+        <trim suffixOverrides=",">
+            <if test="account != null and account != ''">
+                account,
+            </if>
+            <if test="password != null and password != ''">
+                password,
+            </if>
+        </trim>
+        )
+        VALUES (
+        <trim suffixOverrides=",">
+            <if test="account != null and account != ''">
+                #{account},
+            </if>
+            <if test="password != null and password != ''">
+                #{password},
+            </if>
+        </trim>
+        )
+    </insert>
+
+    <select id="isAccountRepeated" parameterType="java.lang.String" resultType="java.lang.Integer">
+        SELECT COUNT(0)
+        FROM user
+        WHERE account = #{account}
+    </select>
+
+    <select id="getUserId" parameterType="java.lang.String" resultType="java.lang.Long">
+        SELECT id
+        FROM user
+        WHERE account = #{account}
+    </select>
+
+    <select id="getUser" parameterType="com.wsn.conference.submission.entity.User" resultMap="userMap">
+        SELECT *
+        FROM user
+        <trim prefix="WHERE">
+            <trim prefixOverrides="AND">
+                <if test="id != 0">
+                    AND id = #{id}
+                </if>
+                <if test="account != null">
+                    AND account = #{account}
+                </if>
+                <if test="password != null">
+                    AND password = #{password}
+                </if>
+            </trim>
+        </trim>
+    </select>
+
+    <update id="resetPassword" parameterType="com.wsn.conference.submission.entity.User">
+        UPDATE user
+        SET password = #{password}
+        <trim prefix="WHERE">
+            <trim prefixOverrides="AND">
+                <if test="id != 0">
+                    AND id = #{id}
+                </if>
+                <if test="account != null">
+                    AND account = #{account}
+                </if>
+            </trim>
+        </trim>
+    </update>
+</mapper>

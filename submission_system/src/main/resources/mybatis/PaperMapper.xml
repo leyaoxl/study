@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsn.conference.submission.dao.PaperDao">
+    <resultMap id="paperSubmissionMap" type="com.wsn.conference.submission.entity.PaperSubmission">
+        <id property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="contributor" column="contributor"/>
+        <result property="type" column="type"/>
+        <result property="subType" column="sub_type"/>
+        <result property="title" column="title"/>
+        <result property="summary" column="summary"/>
+        <result property="keywords" column="keywords"/>
+        <result property="fileName" column="file_name"/>
+        <result property="path" column="path"/>
+        <result property="watermarkPath" column="watermark_path"/>
+        <result property="status" column="status"/>
+        <result property="result" column="result"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <resultMap id="paperReviewMap" type="com.wsn.conference.submission.entity.PaperReview">
+        <id property="id" column="id"/>
+        <result property="paperId" column="paper_id"/>
+        <result property="contributorId" column="contributor_id"/>
+        <result property="reviewerId" column="reviewer_id"/>
+        <result property="status" column="status"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <resultMap id="reviewCommentsMap" type="com.wsn.conference.submission.entity.ReviewComments">
+        <id property="id" column="id"/>
+        <result property="reviewerId" column="reviewer_id"/>
+        <result property="paperId" column="paper_id"/>
+        <result property="status" column="status"/>
+        <result property="item1" column="item_1"/>
+        <result property="item2" column="item_2"/>
+        <result property="item3" column="item_3"/>
+        <result property="item4" column="item_4"/>
+        <result property="item5" column="item_5"/>
+        <result property="comment" column="comment"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <resultMap id="paperReviewListMap" type="com.wsn.conference.submission.entity.PaperReviewList">
+        <result property="paperId" column="paperId"/>
+        <result property="contributorId" column="contributorId"/>
+        <result property="title" column="title"/>
+        <result property="submissionTime" column="submissionTime"/>
+        <result property="status" column="status"/>
+        <result property="reviewTime" column="reviewTime"/>
+    </resultMap>
+
+    <resultMap id="paperReviewTotalMap" type="com.wsn.conference.submission.entity.PaperReviewTotal">
+        <id property="id" column="id"/>
+        <result property="paperId" column="paper_id"/>
+        <result property="contributorId" column="contributor_id"/>
+        <result property="distributionStatus" column="distribution_status"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <insert id="addPaperSubmission" parameterType="com.wsn.conference.submission.entity.PaperSubmission">
+        INSERT INTO paper_submission (
+        <trim suffixOverrides=",">
+            <if test="userId != 0">
+                user_id,
+            </if>
+            <if test="contributor != null and contributor != ''">
+                contributor,
+            </if>
+            <if test="type != null and type != ''">
+                type,
+            </if>
+            <if test="subType != null and subType != ''">
+                sub_type,
+            </if>
+            <if test="title != null and title != ''">
+                title,
+            </if>
+            <if test="summary != null and summary != ''">
+                summary,
+            </if>
+            <if test="keywords != null and keywords != ''">
+                keywords,
+            </if>
+            <if test="fileName != null and fileName != ''">
+                file_name,
+            </if>
+            <if test="path != null and path != ''">
+                path,
+            </if>
+            <if test="watermarkPath != null and watermarkPath != ''">
+                watermark_path,
+            </if>
+            <if test="status != null and status != ''">
+                status,
+            </if>
+            <if test="result != 0">
+                result
+            </if>
+        </trim>
+        )
+        VALUES (
+        <trim suffixOverrides=",">
+            <if test="userId != null and userId != 0">
+                #{userId},
+            </if>
+            <if test="contributor != null and contributor != ''">
+                #{contributor},
+            </if>
+            <if test="type != null and type != ''">
+                #{type},
+            </if>
+            <if test="subType != null and subType != ''">
+                #{subType},
+            </if>
+            <if test="title != null and title != ''">
+                #{title},
+            </if>
+            <if test="summary != null and summary != ''">
+                #{summary},
+            </if>
+            <if test="keywords != null and keywords != ''">
+                #{keywords},
+            </if>
+            <if test="fileName != null and fileName != ''">
+                #{fileName},
+            </if>
+            <if test="path != null and path != ''">
+                #{path},
+            </if>
+            <if test="watermarkPath != null and watermarkPath != ''">
+                #{watermarkPath},
+            </if>
+            <if test="status != null and status != ''">
+                #{status},
+            </if>
+            <if test="result != 0">
+                #{result}
+            </if>
+        </trim>
+        )
+    </insert>
+
+    <insert id="addPaperReview" parameterType="com.wsn.conference.submission.entity.PaperReview">
+        INSERT INTO paper_review (
+        <trim suffixOverrides=",">
+            <if test="paperId != 0">
+                paper_id,
+            </if>
+            <if test="contributorId != 0">
+                contributor_id,
+            </if>
+            <if test="reviewerId != 0">
+                reviewer_id,
+            </if>
+            <if test="status != null and status != ''">
+                status
+            </if>
+        </trim>
+        )
+        VALUES (
+        <trim suffixOverrides=",">
+            <if test="paperId != 0">
+                #{paperId},
+            </if>
+            <if test="contributorId != 0">
+                #{contributorId},
+            </if>
+            <if test="reviewerId != 0">
+                #{reviewerId},
+            </if>
+            <if test="status != null and status != ''">
+                #{status}
+            </if>
+        </trim>
+        )
+    </insert>
+
+    <insert id="addReviewComments" parameterType="com.wsn.conference.submission.entity.ReviewComments">
+        INSERT INTO review_comments (
+        <trim suffixOverrides=",">
+            <if test="reviewerId != 0">
+                reviewer_id,
+            </if>
+            <if test="paperId != 0">
+                paper_id,
+            </if>
+            <if test="status != 0">
+                status,
+            </if>
+            <if test="item1 != 0">
+                item_1,
+            </if>
+            <if test="item2 != 0">
+                item_2,
+            </if>
+            <if test="item3 != 0">
+                item_3,
+            </if>
+            <if test="item4 != 0">
+                item_4,
+            </if>
+            <if test="item5 != 0">
+                item_5,
+            </if>
+            <if test="comment != null and comment != ''">
+                comment
+            </if>
+        </trim>
+        )
+        VALUES (
+        <trim suffixOverrides=",">
+            <if test="reviewerId != 0">
+                #{reviewerId},
+            </if>
+            <if test="paperId != 0">
+                #{paperId},
+            </if>
+            <if test="status != 0">
+                #{status},
+            </if>
+            <if test="item1 != 0">
+                #{item1},
+            </if>
+            <if test="item2 != 0">
+                #{item2},
+            </if>
+            <if test="item3 != 0">
+                #{item3},
+            </if>
+            <if test="item4 != 0">
+                #{item4},
+            </if>
+            <if test="item5 != 0">
+                #{item5},
+            </if>
+            <if test="comment != null and comment != ''">
+                #{comment}
+            </if>
+        </trim>
+        )
+    </insert>
+
+    <insert id="addPaperReviewTotal" parameterType="com.wsn.conference.submission.entity.PaperReviewTotal">
+        INSERT INTO paper_review_total (
+        <trim suffixOverrides=",">
+            <if test="paperId != 0">
+                paper_id,
+            </if>
+            <if test="contributorId != 0">
+                contributor_id,
+            </if>
+            <if test="distributionStatus != 0">
+                distribution_status,
+            </if>
+        </trim>
+        )
+        VALUES (
+        <trim suffixOverrides=",">
+            <if test="paperId != 0">
+                #{paperId},
+            </if>
+            <if test="contributorId != 0">
+                #{contributorId},
+            </if>
+            <if test="distributionStatus != 0">
+                #{distributionStatus},
+            </if>
+        </trim>
+        )
+    </insert>
+
+    <update id="updatePaperSubmission" parameterType="com.wsn.conference.submission.entity.PaperSubmission">
+        UPDATE paper_submission
+        SET
+        <trim suffixOverrides=",">
+            <if test="type != null and type != ''">
+                type = #{type},
+            </if>
+            <if test="subType != null and subType != ''">
+                sub_type = #{subType},
+            </if>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="summary != null and summary != ''">
+                summary = #{summary},
+            </if>
+            <if test="keywords != null and keywords != ''">
+                keywords = #{keywords},
+            </if>
+            <if test="status != null and status != ''">
+                status = #{status},
+            </if>
+            <if test="result != 0">
+                result = #{result},
+            </if>
+        </trim>
+        WHERE
+        <trim prefixOverrides="AND | OR">
+            <if test="id != 0">
+                AND id = #{id}
+            </if>
+            <if test="userId != 0">
+                AND user_id = #{userId}
+            </if>
+            <!--<if test="title != null and title != ''">-->
+                <!--AND title = #{title}-->
+            <!--</if>-->
+        </trim>
+    </update>
+
+    <update id="updatePaperReviewTotalStatus" parameterType="com.wsn.conference.submission.entity.PaperReviewTotal">
+        UPDATE paper_review_total
+        SET distribution_status = #{distributionStatus}
+        WHERE paper_id = #{paperId} AND contributor_id = #{contributorId}
+    </update>
+
+    <update id="updatePaperReviewStatus" parameterType="com.wsn.conference.submission.entity.PaperReview">
+        UPDATE paper_review
+        SET status = #{status}
+        WHERE paper_id = #{paperId} AND reviewer_id = #{reviewerId}
+    </update>
+
+    <update id="updateReviewCommentsStatus" parameterType="com.wsn.conference.submission.entity.ReviewComments">
+        UPDATE review_comments
+        SET status = #{status}
+        WHERE reviewer_id = #{reviewerId} AND paper_id = #{paperId}
+    </update>
+
+    <select id="getPaperSubmission" parameterType="com.wsn.conference.submission.entity.PaperSubmission" resultMap="paperSubmissionMap">
+        SELECT *
+        FROM paper_submission
+        WHERE
+        <trim prefixOverrides="and | or">
+            <if test="id != 0">
+                AND id = #{id}
+            </if>
+            <if test="userId != 0">
+                AND user_id = #{userId}
+            </if>
+            <if test="contributor != null and contributor != ''">
+                AND contributor = #{contributor}
+            </if>
+            <!--<if test="title != null and title != ''">-->
+                <!--AND title = #{title}-->
+            <!--</if>-->
+            <if test="fileName != null and fileName != ''">
+                AND file_name = #{fileName}
+            </if>
+            <if test="status != null and status != ''">
+                AND status = #{status}
+            </if>
+            AND status != 'deleted'
+        </trim>
+    </select>
+
+    <select id="getPaperSubmissionList" parameterType="java.util.HashMap" resultType="java.util.HashMap">
+        <choose>
+            <when test="status == 'unfinished'">
+                SELECT
+                a.id,
+                a.user_id AS userId,
+                a.contributor,
+                a.type,
+                a.sub_type AS subType,
+                a.title,
+                a.summary,
+                a.keywords,
+                a.file_name AS fileName,
+                a.path,
+                a.watermark_path AS watermarkPath,
+                a.status,
+                a.result,
+                date_format(a.create_time, '%Y-%m-%d %H:%i:%s') AS createTime,
+                date_format(a.update_time, '%Y-%m-%d %H:%i:%s') AS updateTime
+                FROM paper_submission a
+                WHERE a.user_id = #{userId} AND a.status = #{status}
+                <if test="type != null">
+                    AND a.type = #{type}
+                </if>
+            </when>
+            <when test="status == 'finished'">
+                SELECT x.*,
+                    CASE
+                        WHEN y.adoptTotalStatus IS NULL THEN 0
+                        ELSE y.adoptTotalStatus
+                    END AS adoptTotalStatus
+                FROM (
+                    SELECT
+                        a.id,
+                        a.user_id AS userId,
+                        a.contributor,
+                        a.type,
+                        a.sub_type AS subType,
+                        a.title,
+                        a.summary,
+                        a.keywords,
+                        a.file_name AS fileName,
+                        a.path,
+                        a.watermark_path AS watermarkPath,
+                        a.status,
+                        a.result,
+                        date_format(a.create_time, '%Y-%m-%d %H:%i:%s') AS createTime,
+                        date_format(a.update_time, '%Y-%m-%d %H:%i:%s') AS updateTime,
+                        b.distribution_status AS distributionStatus
+                    FROM paper_submission a, paper_review_total b
+                    WHERE a.id = b.paper_id AND a.user_id = b.contributor_id AND a.status = #{status}
+                    <if test="type != null">
+                        AND a.type = #{type}
+                    </if>
+                    <if test="userId != 0">
+                        AND a.user_id = #{userId}
+                    </if>
+                ) x LEFT JOIN (
+                    SELECT paper_id,
+                        CASE
+                            WHEN COUNT(*) = 3 THEN 1
+                            ELSE 0
+                        END AS 'adoptTotalStatus'
+                    FROM review_comments
+                    WHERE status = 2
+                    GROUP BY paper_id
+                ) y ON x.id = y.paper_id
+            </when>
+        </choose>
+
+    </select>
+
+    <select id="getPaperReview" parameterType="com.wsn.conference.submission.entity.PaperReview" resultMap="paperReviewMap">
+        SELECT *
+        FROM paper_review
+        WHERE
+        <trim prefixOverrides="AND | OR">
+            <if test="paperId != 0">
+                AND paper_id = #{paperId}
+            </if>
+            <if test="contributorId != 0">
+                AND contributor_id = #{contributorId}
+            </if>
+            <if test="reviewerId != 0">
+                AND reviewer_id = #{reviewerId}
+            </if>
+            <if test="status != null and status != ''">
+                AND status = #{status}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getPaperReviewList" parameterType="java.lang.Long" resultMap="paperReviewListMap">
+        SELECT a.id AS paperId, a.user_id AS contributorId, a.title, a.update_time AS submissionTime, b.status,
+               CASE
+               WHEN b.status = 'reviewed' THEN b.update_time
+               else 'Not Review' END AS reviewTime
+        FROM paper_submission a, paper_review b
+        WHERE a.user_id = b.contributor_id AND a.id = b.paper_id AND b.reviewer_id = #{userId, jdbcType = BIGINT}
+    </select>
+
+    <select id="getPaperReviewTotal" parameterType="com.wsn.conference.submission.entity.PaperReviewTotal" resultMap="paperReviewTotalMap">
+        SELECT *
+        FROM paper_review_total
+        WHERE
+        <trim prefixOverrides="AND | OR">
+            <if test="paperId != 0">
+                AND paper_id = #{paperId}
+            </if>
+            <if test="contributorId != 0">
+                AND contributor_id = #{contributorId}
+            </if>
+            <if test="distributionStatus != 0">
+                AND distribution_id = #{distributionId}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getReviewerList" parameterType="com.wsn.conference.submission.entity.PaperReview" resultType="java.util.HashMap">
+        SELECT x.*,
+            CASE
+                WHEN y.status IS NULL THEN 1
+                ELSE y.status
+                END AS adoptedStatus
+        FROM (
+            SELECT
+                a.reviewer_id AS reviewerId,
+                a.paper_id AS paperId,
+                a.status,
+                b.username,
+                CASE
+                WHEN a.status = 'unconfirmed' THEN 0
+                WHEN a.status = 'rejected' THEN 0
+                WHEN a.status = 'confirmed' THEN 1
+                WHEN a.status = 'reviewed' THEN 2
+                END AS reviewCommentsStatus
+            FROM paper_review a, user_info b
+            WHERE a.reviewer_id = b.user_id AND a.paper_id = #{paperId}
+        ) x LEFT JOIN review_comments y
+            ON x.reviewerId = y.reviewer_id AND x.paperId = y.paper_id
+
+    </select>
+
+    <select id="getReviewComments" parameterType="com.wsn.conference.submission.entity.ReviewComments" resultMap="reviewCommentsMap">
+        SELECT *
+        FROM review_comments
+        WHERE
+        <trim prefixOverrides="AND">
+            <if test="reviewerId != 0">
+                AND reviewer_id = #{reviewerId}
+            </if>
+            <if test="paperId != 0">
+                AND paper_id = #{paperId}
+            </if>
+            <if test="status != 0">
+                AND status = #{status}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getReviewCommentsList" parameterType="com.wsn.conference.submission.entity.ReviewComments" resultMap="reviewCommentsMap">
+        SELECT *
+        FROM review_comments
+        WHERE
+            <trim prefixOverrides="AND | OR">
+                <if test="paperId != 0">
+                    AND paper_id = #{paperId}
+                </if>
+                    AND status = #{status}
+            </trim>
+    </select>
+
+    <delete id="deletePaperSubmission" parameterType="java.lang.Long">
+        DELETE
+        FROM paper_submission
+        WHERE id = #{paperId}
+              AND user_id = #{userId}
+    </delete>
+
+
+</mapper>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <properties>
+        <!-- 文件输出格式 -->
+        <property name="PATTERN">%clr{%d{yyyy-MM-dd HH:mm:ss.SSS}}{faint} %clr{%5p} %clr{${sys:PID}}{magenta} %clr{---}{faint} %clr{[%15.15t]}{faint} %clr{%-40.40c{1.}}{cyan} %clr{:}{faint} %m%n%xwEx</property>
+        <Property name="fileName">logs</Property>
+    </properties>
+
+    <appenders>
+        <!--输出控制台的配置-->
+        <Console name="CONSOLE" target="system_out">
+            <!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 输出日志的格式 -->
+            <PatternLayout pattern="${PATTERN}" />
+        </Console>
+        <!--文件会打印出所有信息，这个log每次运行程序会自动清空，由append属性决定，这个也挺有用的，适合临时测试用-->
+        <File name="LOG" fileName="${fileName}/submission_system.log" append="false">
+            <PatternLayout pattern="${PATTERN}" />
+        </File>
+    </appenders>
+
+    <!-- 异步及同步日志的设置 -->
+    <loggers>
+        <root level="info">
+            <appenderref ref="CONSOLE" />
+            <appenderref ref="LOG" />
+        </root>
+    </loggers>
+
+</configuration>

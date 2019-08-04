@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae57f995-ebbb-423b-b4dd-ac4815771875" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/directedGraph/Digraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/directedGraph/DirectedCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/directedGraph/DirectedDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/search/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/search/BinarySearchST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/search/LinearProbingHashST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/search/RedBlackBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/search/SeparateChainingHashST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/search/SequentialSearchST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/BreadthFirstPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/Cycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/DepthFirstPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/TwoColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leyao/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leyao/utils/sort/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leyao/utils/sort/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leyao/utils/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leyao/utils/sort/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leyao/utils/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leyao/utils/sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leyao/utils/sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leyao/utils/sort/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leyao/utils/sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leyao/utils/sort/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leyao/utils/sort/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leyao/utils/sort/Shell.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Selection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Selection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Insertion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Insertion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Merge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Merge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quick.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Quick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Shell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Singleton" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/SortUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_1.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_2.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_3.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_5.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_6.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_7.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_11.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_4.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_9.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_8.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_10.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/MaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/IndexMinPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/MaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/MergeBU.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/Quick3way.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/Tree.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/SequentialSearchST.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/BinarySearchST.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/BST.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/RedBlackBST.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/LinearProbingHashST.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/search/SeparateChainingHashST.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/DepthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/CC.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/Cycle.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/TwoColor.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/graph/SymbolGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/graph/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/TwoColor.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/directedGraph/DirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/directedGraph/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/Lala.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/La.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/chapter/Print.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/directedGraph/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/Selection.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/Insertion.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/Shell.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/Merge.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/Quick.java" />
+        <option value="$PROJECT_DIR$/src/com/leyao/utils/sort/Heap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leyao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Offer" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.leyao.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Quick">
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leyao.utils.sort.Heap" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyao.utils.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leyao.utils.sort.Insertion" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyao.utils.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leyao.utils.sort.Merge" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyao.utils.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leyao.utils.sort.Quick" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyao.utils.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leyao.utils.sort.Shell" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyao.utils.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Insertion" />
+      <item itemvalue="Application.Shell" />
+      <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.Quick" />
+      <item itemvalue="Application.Heap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Quick" />
+        <item itemvalue="Application.Merge" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.Shell" />
+        <item itemvalue="Application.Insertion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae57f995-ebbb-423b-b4dd-ac4815771875" name="Default" comment="" />
+      <created>1530668699377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530668699377</updated>
+      <workItem from="1530668703941" duration="2538000" />
+      <workItem from="1530696791016" duration="5203000" />
+      <workItem from="1530707922024" duration="47193000" />
+      <workItem from="1530861433317" duration="51000" />
+      <workItem from="1530861585712" duration="303000" />
+      <workItem from="1530949662515" duration="827000" />
+      <workItem from="1531120986337" duration="4758000" />
+      <workItem from="1531127024445" duration="312000" />
+      <workItem from="1531127534839" duration="4172000" />
+      <workItem from="1531144716778" duration="1136000" />
+      <workItem from="1531188021559" duration="6432000" />
+      <workItem from="1531205612642" duration="7837000" />
+      <workItem from="1531226876518" duration="838000" />
+      <workItem from="1531271614323" duration="1398000" />
+      <workItem from="1531275142633" duration="32000" />
+      <workItem from="1533114250948" duration="13785000" />
+      <workItem from="1534755635956" duration="6957000" />
+      <workItem from="1534750756464" duration="9413000" />
+      <workItem from="1535079030099" duration="1301000" />
+      <workItem from="1535331977848" duration="14000" />
+      <workItem from="1535550578018" duration="2203000" />
+      <workItem from="1535590689477" duration="102000" />
+      <workItem from="1535594119510" duration="1621000" />
+      <workItem from="1535632813091" duration="604000" />
+      <workItem from="1535677588797" duration="606000" />
+      <workItem from="1535684258788" duration="13000" />
+      <workItem from="1535981600884" duration="5155000" />
+      <workItem from="1536025331033" duration="1692000" />
+      <workItem from="1536028092864" duration="97000" />
+      <workItem from="1536028207676" duration="10000" />
+      <workItem from="1536028735535" duration="19875000" />
+      <workItem from="1536112316353" duration="13861000" />
+      <workItem from="1536197450364" duration="1713000" />
+      <workItem from="1536672814158" duration="4113000" />
+      <workItem from="1536714152066" duration="14236000" />
+      <workItem from="1536755438638" duration="3047000" />
+      <workItem from="1536801770500" duration="6943000" />
+      <workItem from="1536839422167" duration="896000" />
+      <workItem from="1536841245166" duration="59000" />
+      <workItem from="1537155299032" duration="1990000" />
+      <workItem from="1537167180995" duration="10320000" />
+      <workItem from="1537232887323" duration="8782000" />
+      <workItem from="1537275780548" duration="2111000" />
+      <workItem from="1537319936990" duration="7169000" />
+      <workItem from="1537360478183" duration="6005000" />
+      <workItem from="1537406646384" duration="5082000" />
+      <workItem from="1537582618699" duration="3381000" />
+      <workItem from="1537595981679" duration="2358000" />
+      <workItem from="1537626486220" duration="171000" />
+      <workItem from="1538031641604" duration="720000" />
+      <workItem from="1538098892071" duration="374000" />
+      <workItem from="1538184748390" duration="562000" />
+      <workItem from="1538295437497" duration="1100000" />
+      <workItem from="1540198461264" duration="2125000" />
+      <workItem from="1540206781363" duration="7250000" />
+      <workItem from="1540256044506" duration="16517000" />
+      <workItem from="1540342481479" duration="10573000" />
+      <workItem from="1540431437437" duration="630000" />
+      <workItem from="1540448969902" duration="2624000" />
+      <workItem from="1540515937148" duration="6295000" />
+      <workItem from="1540713410317" duration="646000" />
+      <workItem from="1540728517119" duration="1312000" />
+      <workItem from="1540806621891" duration="10750000" />
+      <workItem from="1540974267107" duration="742000" />
+      <workItem from="1540985957011" duration="6699000" />
+      <workItem from="1541035335400" duration="5123000" />
+      <workItem from="1541042534338" duration="4380000" />
+      <workItem from="1541072353498" duration="2231000" />
+      <workItem from="1541080257456" duration="275000" />
+      <workItem from="1541123518506" duration="1839000" />
+      <workItem from="1541139248079" duration="6304000" />
+      <workItem from="1541684647840" duration="17000" />
+      <workItem from="1541728946547" duration="2523000" />
+      <workItem from="1541752483775" duration="4035000" />
+      <workItem from="1541925649237" duration="6351000" />
+      <workItem from="1542193350863" duration="1109000" />
+      <workItem from="1552889051425" duration="8715000" />
+      <workItem from="1552922956192" duration="34000" />
+      <workItem from="1553759780816" duration="5773000" />
+      <workItem from="1554185890035" duration="2275000" />
+    </task>
+    <task id="LOCAL-00001" summary="更新代码结构">
+      <created>1530697631414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530697631414</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2018.7.4代码更新">
+      <created>1530755436766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530755436766</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2018.7.5代码更新">
+      <created>1530802349558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530802349558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2018.7.6代码更新">
+      <created>1530861135437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530861135437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2018.7.6代码更新">
+      <created>1531121124135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531121124136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2018.7.9代码更新">
+      <created>1531125563740</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531125563740</updated>
+    </task>
+    <task id="LOCAL-00007" summary="更新第一章第一节第35小题代码">
+      <created>1531143064698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531143064698</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2018-7-9代码更新">
+      <created>1531146197293</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531146197293</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2018-7-10代码更新">
+      <created>1531213455576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531213455576</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2018-8-1代码更新">
+      <created>1533177136925</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533177136926</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2018-8-2代码更新">
+      <created>1533205957083</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533205957083</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2018-8-20代码更新">
+      <created>1534769011815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534769011815</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2018-9-4代码更新">
+      <created>1536025374148</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536025374148</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2018-9-4代码更新">
+      <created>1536068479195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536068479195</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2018-9-5代码更新">
+      <created>1536159044468</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536159044468</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2018-9-13代码更新">
+      <created>1536822082087</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536822082087</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2018-9-18代码更新">
+      <created>1537256465212</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537256465212</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="358618000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1920" height="1032" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32906976" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18915929" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.40930232" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.24336283" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946752" weight="0.16924779" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1970181" />
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.2289823" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933628" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906976" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新代码结构" />
+    <MESSAGE value="2018.7.4代码更新" />
+    <MESSAGE value="2018.7.5代码更新" />
+    <MESSAGE value="2018.7.6代码更新" />
+    <MESSAGE value="2018.7.9代码更新" />
+    <MESSAGE value="更新第一章第一节第35小题代码" />
+    <MESSAGE value="2018-7-9代码更新" />
+    <MESSAGE value="2018-7-10代码更新" />
+    <MESSAGE value="2018-8-1代码更新" />
+    <MESSAGE value="2018-8-2代码更新" />
+    <MESSAGE value="2018-8-20代码更新" />
+    <MESSAGE value="2018-9-4代码更新" />
+    <MESSAGE value="2018-9-5代码更新" />
+    <MESSAGE value="2018-9-13代码更新" />
+    <MESSAGE value="2018-9-18代码更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018-9-18代码更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/chapter/chapter2_2/Exercise_9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/SortUtil.java" />
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3743">
+          <caret line="263" column="13" selection-start-line="263" selection-start-column="13" selection-end-line="263" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/IndexMinPQ.java" />
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4771">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/MergeBU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Quick3way.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/Tree.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/BinarySearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-862">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="144" column="19" lean-forward="true" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/RedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="270" column="25" lean-forward="true" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/HotSpotIntrinsicCandidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1499" column="15" selection-start-line="1499" selection-start-column="15" selection-end-line="1499" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/LinearProbingHashST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/SequentialSearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/search/SeparateChainingHashST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/chapter/chapter1_3/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="2268" column="21" lean-forward="true" selection-start-line="2268" selection-start-column="21" selection-end-line="2268" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7088">
+          <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/graph/SymbolGraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/CC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/DepthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/directedGraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/BreadthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/undirectedGraph/TwoColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42442">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/directedGraph/DirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/directedGraph/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="702" column="28" lean-forward="true" selection-start-line="702" selection-start-column="28" selection-end-line="702" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="1741" column="30" selection-start-line="1741" selection-start-column="30" selection-end-line="1741" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/chapter/La.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/chapter/Lala.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/chapter/DQW.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/chapter/Print.java" />
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/directedGraph/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Shell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Quick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leyao/utils/sort/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Algorithms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

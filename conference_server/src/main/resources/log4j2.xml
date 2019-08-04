@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <properties>
+        <!-- 文件输出格式 -->
+        <property name="PATTERN">%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n</property>
+    </properties>
+
+    <appenders>
+        <!--输出控制台的配置-->
+        <Console name="CONSOLE" target="system_out">
+            <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${PATTERN}" />
+        </Console>
+    </appenders>
+
+    <loggers>
+        <root level="all">
+            <appenderref ref="CONSOLE" />
+        </root>
+    </loggers>
+
+</configuration>

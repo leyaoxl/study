@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsn.conference.Dao.PaperDao">
+
+    <resultMap id="PaperMap" type="com.wsn.conference.Bean.Paper">
+        <id property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="title" column="title"/>
+        <result property="summary" column="summary"/>
+        <result property="keyWords" column="key_words"/>
+        <result property="filePath" column="file_path"/>
+        <result property="readerId" column="reader_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <insert id="uploadPaperData" parameterType="java.util.HashMap">
+        insert into paper_tb(
+        <trim suffixOverrides=",">
+            <if test="id != null and id != 0">
+                id,
+            </if>
+            <if test="userId != null and userId != 0">
+                user_id,
+            </if>
+            <if test="title != null and title != ''">
+                title,
+            </if>
+            <if test="summary != null and summary != ''">
+                summary,
+            </if>
+            <if test="keyWords != null and keyWords != ''">
+                key_words,
+            </if>
+            <if test="filePath != null and filePath != ''">
+                file_path,
+            </if>
+            <if test="readerId != null and readerId != ''">
+                reader_id,
+            </if>
+            create_time,
+            update_time
+        </trim>
+        ) values (
+        <trim suffixOverrides=",">
+            <if test="id != null and id != 0">
+                #{id, jdbcType=BIGINT}
+            </if>
+            <if test="userId != null and userId != 0">
+                #{userId,jdbcType=BIGINT},
+            </if>
+            <if test="title != null and title != ''">
+                #{title,jdbcType=VARCHAR},
+            </if>
+            <if test="summary != null and summary != ''">
+                #{summary,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="keyWords != null and keyWords != ''">
+                #{keyWords,jdbcType=VARCHAR},
+            </if>
+            <if test="filePath != null and filePath != ''">
+                #{filePath,jdbcType=VARCHAR},
+            </if>
+            <if test="readerId != null and readerId != ''">
+                #{dateOffset,jdbcType=VARCHAR},
+            </if>
+            NOW(),
+            NOW()
+        </trim>
+        )
+    </insert>
+    
+    <select id="testUploadPaperData" resultMap="PaperMap" parameterType="java.util.HashMap">
+        SELECT *
+        FROM paper_tb
+        WHERE user_id = #{userId}
+        AND title = #{title}
+        AND summary = #{summary}
+        AND key_words = #{keyWords}
+    </select>
+
+    <select id="getAllPaperList" resultMap="PaperMap">
+        SELECT *
+        FROM paper_tb
+    </select>
+
+</mapper>

@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3669c622-b852-4c3d-8b3d-ec9f720af860" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/ArithmeticSlices_413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/MinimumASCIIDeleteSumForTwoStrings_712.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/Triangle_120.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/UniqueBinarySearchTrees_96.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yaole/problems/tree/BinaryTreePreorderTraversal_144.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MinimumASCIIDeleteSumForTwoStrings_712.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/MinimumASCIIDeleteSumForTwoStrings_712.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreePreorderTraversal_144.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/tree/BinaryTreePreorderTraversal_144.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/yaole/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/UniqueEmailAddresses_929.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/ToLowerCase_709.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/UniqueMorseCodeWords_804.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/RobotReturnToOrigin_657.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/ReverseString_344.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/ReverseWordsInAStringIII_557.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/LongestUncommonSubsequenceI_521.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/TwoSum_1.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/RemoveDuplicatesFromSortedArray_26.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/RomanToInteger_13.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/SearchInsertPosition_35.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/RotatedDigits_788.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/FlippingAnImage_832.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/SortArrayByParityII_922.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/DetectCapital_520.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/ConstructStringFromBinaryTree_606.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/LinkedList/lala.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/LinkedList/Lala.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/LinkedList/ReverseLinkedList_206.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/CountAndSay_38.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/BestTimeToBuyAndSellStockII_122.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/StudentAttendanceRecordI_551.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/ReverseVowelsOfaString_345.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/GenerateParentheses_22.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/FindAndReplacePattern_890.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/FindAllNumbersDisappearedInAnArray_448.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/CustomSortString_791.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/IntegerToRoman_12.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/RevealCardsInIncreasingOrder_950.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/Subsets_78.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/CombinationSum_39.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/CombinationSumIII_216.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/CombinationSumII_40.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/RotateImage_48.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/FindAllDuplicatesInAnArray_442.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/PancakeSorting_969.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/GameOfLife_289.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/string/StringCompression_443.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/MinimumPathSum_64.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/RangeSumQuery_Immutable_303.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/ClimbingStairs_70.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/array/HouseRobber_198.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/CountingBits_338.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/NumberOf1Bits_191.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/math/NumberOf1Bits_191.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/UniqueBinarySearchTrees_96.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/Triangle_120.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/ArithmeticSlices_413.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/MinimumASCIIDeleteSumForTwoStrings_712.java" />
+        <option value="$PROJECT_DIR$/src/com/yaole/problems/tree/BinaryTreePreorderTraversal_144.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yaole" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yaole" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yaole" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Offer" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MinimumASCIIDeleteSumForTwoStrings_712">
+    <configuration name="ArithmeticSlices_413" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yaole.problems.dynamicProgram.ArithmeticSlices_413" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaole.problems.dynamicProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CountingBits_338" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yaole.problems.dynamicProgram.CountingBits_338" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaole.problems.dynamicProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinimumASCIIDeleteSumForTwoStrings_712" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yaole.problems.dynamicProgram.MinimumASCIIDeleteSumForTwoStrings_712" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaole.problems.dynamicProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Triangle_120" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yaole.problems.dynamicProgram.Triangle_120" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaole.problems.dynamicProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="UniqueBinarySearchTrees_96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yaole.problems.dynamicProgram.UniqueBinarySearchTrees_96" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaole.problems.dynamicProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.CountingBits_338" />
+      <item itemvalue="Application.UniqueBinarySearchTrees_96" />
+      <item itemvalue="Application.Triangle_120" />
+      <item itemvalue="Application.ArithmeticSlices_413" />
+      <item itemvalue="Application.MinimumASCIIDeleteSumForTwoStrings_712" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MinimumASCIIDeleteSumForTwoStrings_712" />
+        <item itemvalue="Application.ArithmeticSlices_413" />
+        <item itemvalue="Application.Triangle_120" />
+        <item itemvalue="Application.UniqueBinarySearchTrees_96" />
+        <item itemvalue="Application.CountingBits_338" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3669c622-b852-4c3d-8b3d-ec9f720af860" name="Default" comment="" />
+      <created>1530521717617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530521717617</updated>
+      <workItem from="1530521719146" duration="44000" />
+      <workItem from="1534647561285" duration="7176000" />
+      <workItem from="1534755624288" duration="10000" />
+      <workItem from="1536742502417" duration="1718000" />
+      <workItem from="1536760165186" duration="3405000" />
+      <workItem from="1536801751898" duration="15000" />
+      <workItem from="1536841306109" duration="4210000" />
+      <workItem from="1536990306223" duration="456000" />
+      <workItem from="1537146789919" duration="151000" />
+      <workItem from="1537517789543" duration="2228000" />
+      <workItem from="1537531765473" duration="5904000" />
+      <workItem from="1537577790567" duration="2952000" />
+      <workItem from="1537626658127" duration="1782000" />
+      <workItem from="1537665158457" duration="4704000" />
+      <workItem from="1537877999952" duration="7184000" />
+      <workItem from="1537969156226" duration="4578000" />
+      <workItem from="1538018024760" duration="2868000" />
+      <workItem from="1538185312412" duration="3587000" />
+      <workItem from="1538234919273" duration="1955000" />
+      <workItem from="1538275282106" duration="4104000" />
+      <workItem from="1538296602551" duration="5876000" />
+      <workItem from="1538876749025" duration="1377000" />
+      <workItem from="1538979987729" duration="53000" />
+      <workItem from="1539653263993" duration="658000" />
+      <workItem from="1546525823108" duration="2489000" />
+      <workItem from="1546570787615" duration="2382000" />
+      <workItem from="1546592070548" duration="5844000" />
+      <workItem from="1546601207448" duration="442000" />
+      <workItem from="1546609519587" duration="1752000" />
+      <workItem from="1546696968876" duration="957000" />
+      <workItem from="1546868120989" duration="4438000" />
+      <workItem from="1546911684306" duration="20000" />
+      <workItem from="1546956194939" duration="3018000" />
+      <workItem from="1547003673034" duration="40000" />
+      <workItem from="1547040311660" duration="5642000" />
+      <workItem from="1547084020440" duration="2788000" />
+      <workItem from="1547087983142" duration="173000" />
+      <workItem from="1547110053529" duration="1812000" />
+      <workItem from="1547121815343" duration="734000" />
+      <workItem from="1547170231001" duration="7838000" />
+      <workItem from="1547368033867" duration="38000" />
+      <workItem from="1547991187661" duration="2434000" />
+      <workItem from="1548034104312" duration="658000" />
+      <workItem from="1548164874466" duration="1648000" />
+      <workItem from="1548204759571" duration="256000" />
+      <workItem from="1548213288557" duration="2017000" />
+      <workItem from="1548513294426" duration="4014000" />
+      <workItem from="1548559079487" duration="16276000" />
+      <workItem from="1548686775237" duration="665000" />
+      <workItem from="1548746577777" duration="3490000" />
+      <workItem from="1548759201880" duration="9900000" />
+      <workItem from="1548817840539" duration="27352000" />
+      <workItem from="1549811996187" duration="4590000" />
+      <workItem from="1549893976856" duration="3165000" />
+      <workItem from="1550155720829" duration="5760000" />
+      <workItem from="1550220615322" duration="11709000" />
+      <workItem from="1550318307082" duration="7586000" />
+      <workItem from="1550377060167" duration="14000" />
+      <workItem from="1551791812892" duration="696000" />
+    </task>
+    <task id="LOCAL-00001" summary="更新867题代码">
+      <created>1534648718493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534648718493</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新349题代码">
+      <created>1536761593292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536761593292</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新242题代码">
+      <created>1536762865445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536762865445</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新349题代码">
+      <created>1536841779836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536841779836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2019.2.15更新">
+      <created>1550242225927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550242225927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="209632000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1920" height="1032" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32906976" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.17944622" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26769912" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.19358407" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14069767" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26144835" />
+      <window_info anchor="bottom" id="Statistic" order="8" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24889381" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.17477876" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906976" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新867题代码" />
+    <MESSAGE value="更新242题代码" />
+    <MESSAGE value="更新349题代码" />
+    <MESSAGE value="2019.2.15更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.2.15更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/LongestUncommonSubsequenceI_521.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/ReverseWordsInAStringIII_557.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/RobotReturnToOrigin_657.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/UniqueMorseCodeWords_804.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/ToLowerCase_709.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/UniqueEmailAddresses_929.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/RomanToInteger_13.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/SearchInsertPosition_35.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/RemoveDuplicatesFromSortedArray_26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/RotatedDigits_788.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/FlippingAnImage_832.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/SortArrayByParityII_922.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/DetectCapital_520.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/ConstructStringFromBinaryTree_606.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/LinkedList/lala.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/LinkedList/Lala.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/LinkedList/ReverseLinkedList_206.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/ReverseString_344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/ReverseVowelsOfaString_345.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/StudentAttendanceRecordI_551.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/BuyAndSellStock_121.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/BestTimeToBuyAndSellStockII_122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/CountAndSay_38.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="124" column="6" selection-start-line="124" selection-start-column="6" selection-end-line="124" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/FindAndReplacePattern_890.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/FindAllNumbersDisappearedInAnArray_448.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/IntegerToRoman_12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/CustomSortString_791.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/GenerateParentheses_22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/RevealCardsInIncreasingOrder_950.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/Subsets_78.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/FindAllDuplicatesInAnArray_442.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/RotateImage_48.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/CombinationSumII_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/CombinationSumIII_216.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/CombinationSum_39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="39" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/string/StringCompression_443.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/GameOfLife_289.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/PancakeSorting_969.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/ClimbingStairs_70.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="64" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/RangeSumQuery_Immutable_303.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/array/MinimumPathSum_64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/HouseRobber_198.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/CountingBits_338.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/UniqueBinarySearchTrees_96.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/math/NumberOf1Bits_191.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/ArithmeticSlices_413.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/Triangle_120.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/dynamicProgram/MinimumASCIIDeleteSumForTwoStrings_712.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yaole/problems/tree/BinaryTreePreorderTraversal_144.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
